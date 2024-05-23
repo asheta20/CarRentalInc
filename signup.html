@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="icon" type="image/png" href="images/faviconnn.png">
+    <link rel="stylesheet" href="navigationBar.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="clientSideValidation.js" defer></script>
+    <style>
+      body {
+        background-image: url('images/bg3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      .form-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+
+      .form-wrapper {
+        backdrop-filter: blur(1px);
+        background-color: rgba(255, 255, 255, 0.036);
+        padding: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      form input {
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 300px;
+      }
+
+      .remember-me {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .remember-me input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      .sign{
+          display: flex;
+          justify-content: center;
+          padding-bottom: 20px;
+      }
+
+      .signin {
+          width: 300px;
+border-radius: 20px; 
+padding: 10px 20px; 
+background-color: #007bff; 
+color: #fff; 
+font-size: 16px; 
+border: none; 
+}
+</style>
+</head>
+<body>
+    <ul>
+        <li class="left"><a href="index"><img src="images/icoo.png" width="60px" height="20px"></a></li>
+    
+        <li class="center"><a href="index">Home</a></li>
+        <li class="center"><a href="news">Our Cars</a></li>
+        <li class="center"><a href="E-Sports">Reservations</a></li>
+        
+        
+        <li class="right">
+          <a href="login" >Log in</a>
+        </li>
+      </ul>
+
+     <!-- Registration form-->
+    <div class="form-container">
+      <div class="form-wrapper">
+          <h2 style="text-align: center;">Sign up </h2>
+          <form action="processRegistration.php" method="post" id="signup">
+            <div>
+              <ion-icon name="person-outline"></ion-icon>
+              <input type="text" id="name" name="name" placeholder="Name" style="padding-bottom: 5px;">
+            </div>
+            <div>
+            <ion-icon name="person-outline"></ion-icon>
+            <input type="text" id="surname" name="surname" placeholder="Surname" style="padding-bottom: 5px;">
+            </div>
+            <div>
+             <ion-icon name="person-circle-outline"></ion-icon>
+              <input type="text" id="username" name="username" placeholder="Username" style="padding-bottom: 5px;">
+             </div>
+              <div>
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <input type="email" id="email" name="email" placeholder="Email" style="padding-bottom: 5px;">
+              </div>
+              <div>
+                  <ion-icon name="lock-closed-outline"></ion-icon>
+                  <input type="password" id="password" name="password" placeholder="Password" style="padding-bottom: 5px;">
+              </div>
+              <div>
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Confrim password" style="padding-bottom: 5px;">
+            </div>
+            <div class="sign">
+              <button class="signin">Resgister</button>
+           </div>
+          </form>
+          <div style="display: flex; justify-content: left;">
+        
+      <input type="checkbox">
+      <label for="checkbox">Agree with terms and services</label>
+      </div>
+      
+      
+      </div>
+  </div>
+    <!--Library to add the small icons on the registration page-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
