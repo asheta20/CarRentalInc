@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-23T07:22:12.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-7nQFx8qLL2Wrn3CI6S_" version="24.4.6" type="device">
+  <diagram name="User" id="OG-CivyzLCz4VYzvx30u">
+    <mxGraphModel dx="1804" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="262" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="277" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-3" value="Log in" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="197" y="90" width="163" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-6" value="entry: Log in credentials&lt;br&gt;exit: Authentication successful" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="CSqo6m-lbFWTA64fFOPr-3" vertex="1">
+          <mxGeometry y="30" width="163" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="277" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-4" value="entry: Log in credentials&lt;br&gt;exit: Authentication successful" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="197" y="160" width="163" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.001;exitY=0.153;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="270" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="197" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-8" value="Authentication failed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-9" value="Main page" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="197" y="210" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-10" value="entry: Display all services&lt;br&gt;do: display cars&lt;br&gt;do: redirect user to reservations&lt;br&gt;do: create inquiry from&lt;br&gt;exit: log out" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="CSqo6m-lbFWTA64fFOPr-9" vertex="1">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="277" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-12" value="Log out" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="584" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-13" value="exit: Log out" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="CSqo6m-lbFWTA64fFOPr-12" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-12" edge="1" target="CSqo6m-lbFWTA64fFOPr-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="263.5" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-16" value="Reservations" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="240" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-17" value="Entry: Display reservation form, search for reservation&lt;br&gt;do: Create reservation&lt;br&gt;do: Checked reserved cars&lt;br&gt;do: Display reserved cars&lt;br&gt;Exit: Go back to main page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="CSqo6m-lbFWTA64fFOPr-16" vertex="1">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-6" value="Entry: Display order page&lt;br&gt;do: Entered required data&lt;br&gt;do: Add another&lt;br&gt;do: Save&lt;br&gt;Exit: Go back to main page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="CSqo6m-lbFWTA64fFOPr-16">
+          <mxGeometry y="150" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-10" target="CSqo6m-lbFWTA64fFOPr-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="370" as="targetPoint" />
+            <mxPoint x="570" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-23" value="Add reservation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.996;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-17" target="CSqo6m-lbFWTA64fFOPr-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="500" as="targetPoint" />
+            <mxPoint x="570" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-25" value="Go back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-26" value="Inquiry" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="197" y="410" width="160" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-27" value="entry: Display page&lt;br&gt;do; enter required date&lt;br&gt;do: Display package state&lt;br&gt;exit: Go back to main page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="CSqo6m-lbFWTA64fFOPr-26" vertex="1">
+          <mxGeometry y="30" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-31" value="Open Our Cars" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-32" value="Go back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-40" value="Search reservation" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="430" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-41" value="entry: Information page&lt;br&gt;do: show branch information&lt;br&gt;do: contact button&lt;br&gt;do: forward customer to the chosen contact methode&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="CSqo6m-lbFWTA64fFOPr-40" vertex="1">
+          <mxGeometry y="30" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-43" value="log ou" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.551;exitY=1.031;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="1t1ONSupXYb_rKIsh-Pm-2" target="CSqo6m-lbFWTA64fFOPr-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="targetPoint" />
+            <mxPoint x="197" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-48" value="log out" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSqo6m-lbFWTA64fFOPr-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CSqo6m-lbFWTA64fFOPr-27" target="CSqo6m-lbFWTA64fFOPr-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76.36000000000013" y="180" as="targetPoint" />
+            <mxPoint x="200" y="189.36" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-1" value="Cars page" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="210" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-2" value="Entry: Display car page&lt;br&gt;do: display cars&lt;br&gt;do: redirect them to reservation&lt;br&gt;Exit: Go back to main page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="1t1ONSupXYb_rKIsh-Pm-1">
+          <mxGeometry y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="321" as="targetPoint" />
+            <mxPoint x="66.5" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.996;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="250" as="targetPoint" />
+            <mxPoint x="197" y="259" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CSqo6m-lbFWTA64fFOPr-48" target="CSqo6m-lbFWTA64fFOPr-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.546;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CSqo6m-lbFWTA64fFOPr-17" target="CSqo6m-lbFWTA64fFOPr-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="503" y="460" as="targetPoint" />
+            <mxPoint x="380" y="422" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1t1ONSupXYb_rKIsh-Pm-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CSqo6m-lbFWTA64fFOPr-41" target="CSqo6m-lbFWTA64fFOPr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583" y="698" as="targetPoint" />
+            <mxPoint x="460" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
