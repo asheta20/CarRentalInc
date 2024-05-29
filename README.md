@@ -21,7 +21,9 @@ Ionicons for the small icon images
 Some notes: Since while testing you cannot check if emails are sent to an email address i left it as an inquirey and logged them in the database Sending emails could have easely been done by including <script src="https://smtpjs.com/v3/smtp.js">. A .htaccess has been set where we can be redirected to other pages without the need to know the file extention(.hmtl, .php) and also it wont show in the url. Images are stored in the database, used the blob type variable.
 
 Some accounts for testing purposes.
-Admin
+Admin : admin@gmail.com 
+
+tech: TechSuport@yahoo.com
 
 .
 
